@@ -10,7 +10,7 @@ return MaterialApp(
 	  appBar: AppBar(
 	  	title: const Text('TITLE'),
       leading: const ImageIcon(AssetImage('assets/Danain.png')),
-      actions: [const Icon(Icons.notifications)],
+      actions: const [Icon(Icons.notifications)],
 	  ), 
 	  body: const Center(
 	  	child: Text(
