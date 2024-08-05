@@ -1,8 +1,10 @@
 import 'package:danain_ui/home.background.dart';
 import 'package:danain_ui/home.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 void main() {
+  debugPaintSizeEnabled = true;
   runApp(danaInApp());
 }
 
