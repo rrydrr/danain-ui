@@ -19,7 +19,7 @@ class HomeWidget extends StatelessWidget {
           color: Color(0xffEEEEEE),
           height: 4,
         ),
-        OJKAFPIWidget()
+        OJKAFPIWidget(),
       ],),
       bottomNavigationBar: BottomNavbarWidget(),
       backgroundColor: Colors.transparent,
