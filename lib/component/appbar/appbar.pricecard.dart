@@ -25,9 +25,9 @@ class AppbarPricecard extends StatelessWidget {
           return Builder(
             builder: (BuildContext context) {
               return Container(
-                width: 120, // Set a fixed width for the container
-                margin: const EdgeInsets.symmetric(horizontal: 0.0), // Adjust margin
-                padding: const EdgeInsets.all(0.0), // Adjust padding
+                width: 120,
+                margin: const EdgeInsets.symmetric(horizontal: 0.0),
+                padding: const EdgeInsets.all(0.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
