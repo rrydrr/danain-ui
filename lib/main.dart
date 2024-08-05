@@ -1,24 +1,23 @@
+import 'package:danain_ui/home.background.dart';
+import 'package:danain_ui/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-runApp(myApp());
+  runApp(danaInApp());
 }
 
-MaterialApp myApp() {
-return MaterialApp(
-	home: Scaffold(
-	  appBar: AppBar(
-	  	title: const Text('TITLE'),
-      leading: const ImageIcon(AssetImage('assets/Danain.png')),
-      actions: const [Icon(Icons.notifications)],
-	  ), 
-	  body: const Center(
-	  	child: Text(
-	  	'BODY',
-	  	style: TextStyle(fontSize: 24),
-	  	),
-	  ),
-	), 
-	debugShowCheckedModeBanner: false, //Removing Debug Banner
-);
+class danaInApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Stack(
+          children: [
+            BackgroundGradient(),
+            HomeWidget(),
+          ],
+        ),
+      ),
+    );
+  }
 }

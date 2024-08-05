@@ -9,11 +9,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_lints: ^3.0.0
+  carousel_slider: ^4.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/Danain.png
+    - assets/Simulasi.png
+    - assets/Pengajuan.png
+    - assets/Produk.png
+    - assets/Mitra.png
+    - assets/OJK.png
+    - assets/AFPI.png
+    - assets/Home.png
+    - assets/Transaksi.png
+    - assets/Bantuan.png
+    - assets/Profil.png
